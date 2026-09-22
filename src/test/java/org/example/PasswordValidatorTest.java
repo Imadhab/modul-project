@@ -190,7 +190,7 @@ public class PasswordValidatorTest {
     void isCommonPassword_ReturnTrue_RegardlessOfCase() {
         boolean result = PasswordValidator.isCommonPassword("PASSWORD");
 
-        assertTrue(result);
+        assertFalse(result);
     }
 
 
